@@ -11,8 +11,8 @@ export const config = {
     "url": process.env.URL    
   },
   "prod": {
-    "username": "",
-    "password": "",
+    "username": process.env.POSTGRESS_USERNAME,
+    "password": process.env.POSTGRESS_PASSWORD,
     "database": "udagram_prod",
     "host": "",
     "dialect": "postgres"
