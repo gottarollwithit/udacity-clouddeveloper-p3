@@ -80,3 +80,5 @@ After pods started successfully we need to do port forwarding
 kubectl port-forward service/reverseproxy 8080:8080
 kubectl port-forward service/frontend 8100:8100
 ```
+
+All necessary screenshots and rolling update video are located under [projectoutput](/projectoutput) folder. 
